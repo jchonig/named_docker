@@ -12,6 +12,6 @@ EXPOSE 53/udp 53/tcp
 
 VOLUME /etc/bind/data
 
-ADD scriptso/entrypoint.sh /
+ADD scripts/entrypoint.sh /
 
 CMD /entrypoint.sh
